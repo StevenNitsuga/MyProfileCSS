@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Venus'; /* Choose a name for your font */
+    src: url('venus_rising_rg.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Nasa'; /* Choose a name for your font */
+    src: url('nasalization-rg.otf') format('opentype');
+}
+
+body{
+    margin: 0;
+    color: #30475E;
+    
+
+
+}
+
+h1{
+    font-family: 'Venus', 'Times New Roman';
+    font-size: 3rem; 
+   
+}
+
+h2{
+
+    font-family: 'Nasa', 'Times New Roman';
+    font-size: 2rem;
+    color: #30475E;
+}
+
+h3{
+    font-family: 'Nasa', 'Times New Roman';
+    font-size: 2rem;
+    color: #DDDDDD;
+
+}
+
+p{
+    font-family: 'Nasa' , 'Times New Roman';
+    line-height: 2;
+
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 10%;
+    margin: 50px auto;
+    color: #d7a64b;
+
+}
+
+
+/*Top Section*/
+.top-container{
+    padding-top: 100px;
+    text-align: center;
+    background-color: #DDDDDD;
+}
+
+
+
+
+
+.middle-container{
+    padding: 100px 0;
+    text-align: center;
+    background-color: #304C7A;
+}
+
+.middle-container p {
+    color: #DDDDDD;
+}
+
+.troubleshooting_image{
+    float: left;
+    width: 300px;
+    margin-right: 50px;
+
+}
+
+.logoprinter_image{
+    float: right;
+    width: 350px;
+    margin-left: 50px;
+
+}
+
+.skill-row{
+    margin: auto;
+    text-align: left;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+
+
+.skill-row p {
+    color: #DDDDDD;
+}
+
+.skills h2 {
+    margin-bottom: 80px;
+    color: #F05454;
+}
+
+.profile{
+    margin: auto;
+    width: 40%;
+    color: #DDDDDD;
+}
+
+.profile h2 {
+    color: #F05454;
+}
+
+.pro{
+
+    text-decoration: underline;
+}
+
+
+.printer{
+    position: absolute;
+    height: auto;
+    width: 410px;
+    right: 0px;
+    top: 0px;
+    
+}
+
+.constellationlogo{
+    position: absolute;
+    height: auto;
+    width: 230px;
+    bottom: 400px;
+    left: 100px;
+    top: 100px;
+    
+
+}
+
+.webdevlogo{
+    position: relative;
+    height: auto;
+    width: 500px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+
+.contact-me h2{
+    color: #F05454;
+
+
+}
+
+.contact-message{
+    margin: auto auto 50px auto;
+    width: 25%;
+}
+
+.btn {
+    background: #304C7A;
+    background-image: -webkit-linear-gradient(top, #304C7A, #E06236);
+    background-image: -moz-linear-gradient(top, #304C7A, #E06236);
+    background-image: -ms-linear-gradient(top, #304C7A, #E06236);
+    background-image: -o-linear-gradient(top, #304C7A, #E06236);
+    background-image: -webkit-gradient(to bottom, #304C7A, #E06236);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #DDDDDD;
+    font-family: 'Venus';
+    font-size: 20px;
+    font-weight: 600;
+    padding: 19px;
+    -webkit-box-shadow: 1px 1px 4px 0 #000000;
+    -moz-box-shadow: 1px 1px 4px 0 #000000;
+    box-shadow: 1px 1px 4px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #FFFFFF 1px;
+    background: #E06236;
+    background-image: -webkit-linear-gradient(top, #E06236, #NAN04C7);
+    background-image: -moz-linear-gradient(top, #E06236, #NAN04C7);
+    background-image: -ms-linear-gradient(top, #E06236, #NAN04C7);
+    background-image: -o-linear-gradient(top, #E06236, #NAN04C7);
+    background-image: -webkit-gradient(to bottom, #E06236, #NAN04C7);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ 
+.bottom-container{
+    background-color: #F05454;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-link{
+    margin: 0 30px;
+    text-decoration: none;
+    color: #304C7A;
+}
+
+.footer-link:hover{
+    color: #d7a64b;
+}
+
+.credit{
+    margin-top: 50px;
+    color: #304C7A; 
+}
